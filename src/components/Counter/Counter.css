@@ -1,0 +1,28 @@
+.counterWrapper{
+    border: 1px solid saddlebrown;
+    border-radius: 5px;
+}
+.counterValue{
+    color: saddlebrown;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 15px;
+    background-color: #bc8f8f70;
+    border-left: 1px solid saddlebrown;
+    border-Right: 1px solid saddlebrown;
+}
+input[type="button"]{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+input[type="button"].incrementBtn{
+    color: #fff;
+    background-color: saddlebrown;
+}
+.decrementBtn{
+    color: saddlebrown;
+}
